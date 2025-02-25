@@ -1,0 +1,172 @@
+/* Body styling for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('./bg.jpg'); /* Path to the image in the public folder */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.App {
+  background-color: #ed7bc7bc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(255, 0, 183);
+  width: 100%;
+  max-width: 800px;
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  color: #751275;
+}
+
+/* Sub-heading (task list and completed list) */
+h2 {
+  text-align: center;
+  color: #690f56;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Input and button for adding tasks */
+.task-input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.task-input input {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ffffff89;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.task-input button {
+  padding: 10px;
+  background-color: #670a8cc8;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.task-input button:hover {
+  background-color: #af0cfb;
+}
+
+/* Main container for layout */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for task lists */
+.task-list-box,
+.completed-tasks,
+.deleted-tasks {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.task-list-box ul,
+.completed-tasks ul,
+.deleted-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list-box li,
+.completed-tasks li,
+.deleted-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ff00ae;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #f9f9f98a;
+}
+
+/* Checkbox style for task completion */
+.task-list-box li input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* Completed task styling */
+.completed-task {
+  background-color: #e0e0e093;
+  color: grey;
+}
+
+.crossed-out-text {
+  text-decoration: line-through;
+  color: rgb(162, 5, 176); /* Green color for completed tasks */
+}
+
+/* Button style */
+.delete-btn,
+.restore-btn,
+.delete-trash {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.delete-btn {
+  background-color: transparent;
+}
+.restore-btn {
+  background-color: transparent;
+  color: #085fbd; /* Blue color */
+}
+
+.restore-btn:hover {
+  color: #0056b3; /* Darker blue */
+}
+
+.delete-trash {
+  background-color: transparent;
+  color: #ff0019cd; /* Red color for trash */
+}
+
+.delete-trash:hover {
+  color: #a71d2a; /* Darker red */
+}
+
+/* Controls (smiley and trash icons) */
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.smiley,
+.trash {
+  padding: 10px;
+  background-color: #c722d6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.smiley:hover,
+.trash:hover {
+  background-color: #ff00dd;
+}
