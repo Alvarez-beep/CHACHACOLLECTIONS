@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="movies.xsl"?>
+<movies>
+    <movie id="1">
+        <movieTitle>Avatar: The Way of Water</movieTitle>
+        <director>James Cameron</director>
+        <year>2022</year>
+        <actors>
+            <actor>Sam Worthington</actor>
+            <actor>Zoe Saldana</actor>
+            <actor>Sigourney Weaver</actor>
+        </actors>
+    </movie>
+
+    <movie id="2">
+        <movieTitle>Oppenheimer</movieTitle>
+        <director>Christopher Nolan</director>
+        <year>2023</year>
+        <actors>
+            <actor>Cillian Murphy</actor>
+            <actor>Robert Downey Jr.</actor>
+            <actor>Emily Blunt</actor>
+        </actors>
+    </movie>
+
+    <movie id="3">
+        <movieTitle>Dune: Part Two</movieTitle>
+        <director>Denis Villeneuve</director>
+        <year>2024</year>
+        <actors>
+            <actor>Timothée Chalamet</actor>
+            <actor>Zendaya</actor>
+            <actor>Rebecca Ferguson</actor>
+        </actors>
+    </movie>
+
+    <movie id="4">
+        <movieTitle>John Wick: Chapter 4</movieTitle>
+        <director>Chad Stahelski</director>
+        <year>2023</year>
+        <actors>
+            <actor>Keanu Reeves</actor>
+            <actor>Donnie Yen</actor>
+            <actor>Bill Skarsgård</actor>
+        </actors>
+    </movie>
+
+    <movie id="5">
+        <movieTitle>Spider-Man: No Way Home</movieTitle>
+        <director>Jon Watts</director>
+        <year>2021</year>
+        <actors>
+            <actor>Tom Holland</actor>
+            <actor>Zendaya</actor>
+            <actor>Benedict Cumberbatch</actor>
+        </actors>
+    </movie>
+</movies>
